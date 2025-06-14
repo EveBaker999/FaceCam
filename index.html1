@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sign-up-page">
+      <div class="div">
+        <img class="image" src="img/image-37.png" />
+        <img class="img" src="img/image-38.png" />
+        <img class="image-2" src="img/image-39.png" />
+        <div class="text-wrapper">9:41</div>
+        <div class="text-wrapper-2">Edit Profile</div>
+        <img class="arrow" src="img/arrow-1.svg" />
+        <div class="overlap-group">
+          <div class="ellipse"></div>
+          <img class="image-3" src="img/image.png" />
+        </div>
+        <img class="image-4" src="img/image-46.png" />
+        <div class="text-wrapper-3">Name</div>
+        <div class="overlap"><div class="text-wrapper-4">Charlotte King</div></div>
+        <div class="div-wrapper"><div class="text-wrapper-5">@johnkingraphics.gmail.com</div></div>
+        <div class="overlap-2"><div class="text-wrapper-6">@johnkingraphics</div></div>
+        <div class="overlap-3">
+          <img class="image-5" src="img/image-48.png" />
+          <img class="image-6" src="img/image-49.png" />
+          <img class="image-7" src="img/image-50.png" />
+          <img class="image-8" src="img/image-44.png" />
+        </div>
+        <div class="overlap-4">
+          <div class="text-wrapper-7">6895312</div>
+          <div class="text-wrapper-8">+91</div>
+          <img class="polygon" src="img/polygon-1.svg" />
+        </div>
+        <div class="text-wrapper-9">Username</div>
+        <div class="text-wrapper-10">Password</div>
+        <div class="text-wrapper-11">Phone number</div>
+        <div class="text-wrapper-12">E-mail address</div>
+        <img class="image-9" src="img/image-41.png" />
+        <img class="image-10" src="img/image-42.png" />
+        <img class="image-11" src="img/image-51.png" />
+      </div>
+    </div>
+  </body>
+</html>
+
+<link rel="stylesheet" href="index.css1">

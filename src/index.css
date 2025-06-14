@@ -1,0 +1,149 @@
+.camera-container {
+  position: relative;
+  /* display: flex; */
+  width: 100%;
+  max-width: 100%; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.body {
+  background-color: #55d70f;
+  color: white;
+  padding: 40px;
+  font-family: Sans-Serif;
+  text-align: center;
+}
+
+.camera-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.face-box {
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%; /* Must match boxWidth in JS */
+  height: 60%; /* Must match boxHeight in JS */
+  border: 2px solid #ffffff;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.button1 {
+  background-color: #844fff;
+  border-radius: 10px;
+  width: 100%;
+  /* height: 5%; */
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+}
+.button1:hover {
+  background-position: 100%;
+  background-color: #075151;
+}
+
+.button2 {
+  background-color: #9a88b8;
+  /* border-radius: 10px; */
+  width: 49%;
+  outline: none;
+  padding: 2%;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, #844fff 50%, #075151 50%);
+  background-position: 0%;
+  background-size: 200%;
+  color: #fff;
+  transition: 0.4s;
+}
+.button2:hover {
+  background-position: 100%;
+}
+
+.button3 {
+  background-color: #9a88b8;
+  /* border-radius: 10px; */
+  width: 49%;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, #844fff 50%, #075151 50%);
+  background-position: 0%;
+  background-size: 200%;
+  color: #fff;
+  transition: 0.4s;
+}
+.button3:hover {
+  background-position: 100%;
+}
+
+.button4 {
+  /* padding: 20%; */
+  background-color: #9a88b8;
+  /* border-radius: 10px; */
+  width: 49%;
+  border: none;
+  padding: 2%;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #844fff 50%, #075151 50%);
+  background-position: 0%;
+  background-size: 200%;
+  color: #fff;
+  transition: 0.4s;
+}
+.button4:hover {
+  background-position: 100%;
+}
+
+.button5 {
+  background-color: #9a88b8;
+  /* border-radius: 10px; */
+  width: 49%;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #844fff 50%, #075151 50%);
+  background-position: 0%;
+  background-size: 200%;
+  color: #fff;
+  transition: 0.4s;
+}
+.button5:hover {
+  background-position: 100%;
+}
+
+.container {
+  height: 100vh;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#uploadStr {
+  display: flex;
+  height: 8%;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  #uploadStr {
+    width: 50%;
+  }
+}
